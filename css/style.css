@@ -1,0 +1,131 @@
+/*
+    Document   : css
+    Created on : 10.02.2015, 22:56:57
+    Author     : Андрей
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root {
+    display: block;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.user{
+     font-size: 20px;
+}
+
+.user .item{
+    margin-bottom: 10px;
+}
+
+#wrapContent {
+    background-image: url(/images/background.jpg);
+    height: 100%;
+    position: absolute;
+    width: 70%;
+}
+
+.registrationImage {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */ 
+}
+.textRegistrationImage {
+    text-decoration:  aqua;
+    font-family:sans-serif;
+    font-size: 15px;
+}
+#registration {
+    background: rgba(0,0,0,0.5);
+    border-radius: 16px;
+    color: #fff;
+    left: 50%;
+    margin-left: -245px;
+    top: 50%;
+    margin-top: -325px;
+    padding: 10px 20px;
+    position: absolute;
+    width: 450px;
+}
+.elemRegistration {
+    margin-bottom: 10px;
+}
+#formRegistration {
+    clear: both;
+}
+.registrationImage{
+
+}
+.elemRegistrationTitle{
+    display: inline-block;
+    line-height: 31px;
+    vertical-align: middle;
+    width: 200px;
+}
+#elemRegistrationInput {
+    border: solid 1px #CECECE;
+    box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    height: 29px;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 5px;
+    vertical-align: middle;
+    width: 200px;
+}
+.elemRegistrationPol{
+    display: inline-block;
+    line-height: 31px;
+    vertical-align: middle;
+}
+
+.errorRegistrationLogin,.errorRegistrationEmail,
+.errorRegistrationSex,.errorRegistrationBirthday,.errorRegistrationFoto {
+    color: #FF9A9A;
+    font-size: 19px;  
+}
+.accept_sign {
+    background: rgb(101, 182, 90);
+    border-radius: 50%;
+    display: inline-block;
+    height: 18px;
+    padding: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 18px;
+    z-index: 10;
+}
+.error_sign {
+    background: rgb(179, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    height: 18px;
+    padding: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.errorRegistration{
+
+
+}
+.errorRegistration span {
+    color: red;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+        0px -5px 35px rgba(255,255,255,0.3);
+}
